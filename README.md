@@ -13,23 +13,23 @@ Feature	Description
 📤 Data Export	Export mood/sleep data as CSV
 🚀 Quick Start
 
-1. Installation
+# 1. Installation
 cmd
-# Clone repository
+## Clone repository
 git clone https://github.com/Tasfia-f/Mindful-Companion.git
 cd Mindful-Companion
 
-# Install dependencies
+## Install dependencies
 pip install -r requirements.txt
 
-2. Configuration
+# 2. Configuration
    
 cmd
-# Create .env file
+## Create .env file
 echo "GOOGLE_API_KEY=your_api_key_here" > .env
 Get your free API key from Google AI Studio
 
-3. Run the App
+# 3. Run the App
    
 cmd
 python -m streamlit run app.py
